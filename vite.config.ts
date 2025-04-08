@@ -8,3 +8,9 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
 });
+
+// vite.config.ts ou vite.config.js
+export default defineConfig({
+  base: '/organizador-de-agenda/', // 👈 necessário para funcionar no GitHub Pages
+  ...
+})
